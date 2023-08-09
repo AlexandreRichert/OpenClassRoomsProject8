@@ -2,3 +2,29 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+    label {
+        @apply text-base;
+        @apply mt-3;
+        @apply mb-1;
+        @apply font-semibold;
+    }
+    input {
+        @apply p-1;
+        @apply h-12;
+        @apply w-1/2;
+        @apply text-base;
+        @apply border;
+        @apply border-[#cccccc];
+        @apply bg-[#ffffff];
+        @apply border-solid;
+        @apply rounded-none;
+        @apply shadow-1;
+        @apply text-[#000000];
+    }
+
+    input:focus {
+        @apply outline-none;
+    }
+}

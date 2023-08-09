@@ -5,24 +5,47 @@
         "id": "1",
         "title": "Booki",
         "imageUrl": "images/Booki.png",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenclassroomsProject2"
+        "description": "lorem dgdfbsgqsgsgs",
+        "lienGithub": "https://github.com/AlexandreRichert/OpenclassroomsProject2",
+        "technos": [
+            "HTML",
+            "CSS"
+        ]
     },
     {
         "id": "2",
         "title": "Portfolio Sophie Bluel",
         "imageUrl": "images/Sophie_Bluel.png",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet3"
+        "description": "lorem dgdfbsgqsgsgs",
+        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet3",
+        "technos": [
+            "HTML",
+            "CSS",
+            "Javascript"
+        ]
+
     },
     {
         "id": "3",
         "title": "KASA",
         "imageUrl": "images/KASA.png",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProject6"
+        "description": "lorem dgdfbsgqsgsgs",
+        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProject6",
+        "technos": [
+            "React",
+            "CSS"
+        ]
     },
     {
         "id": "4",
         "title": "Mon vieux grimoire",
         "imageUrl": "images/monvieuxgrimoire.png",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7"
+        "description": "lorem dgdfbsgqsgsgs",
+        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7",
+        "technos": [
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ]
     }
 ]
