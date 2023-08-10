@@ -6,14 +6,16 @@
 @layer base {
     label {
         @apply text-base;
+        @apply self-start;
         @apply mt-3;
         @apply mb-1;
+        @apply ml-1;
         @apply font-semibold;
+        @apply text-white;
     }
     input {
-        @apply p-1;
         @apply h-12;
-        @apply w-1/2;
+        @apply w-full;
         @apply text-base;
         @apply border;
         @apply border-[#cccccc];

@@ -1,5 +1,7 @@
 import React, { useRef} from 'react'
 import emailjs from "@emailjs/browser";
+//import background from '../assets/shape.svg';
+
 
 function Contact() {
     const form = useRef();
@@ -15,12 +17,17 @@ function Contact() {
         }
       );
     };
+    /*const backgroundStyle = {
+      backgroundImage: `url(${background})`, // Utilisez l'URL de votre image SVG ici
+    };*/
+  
   
     return (
-        <div className="flex justify-center items-center h-screen bg-green-600">
-          <form ref={form} onSubmit={sendEmail} className=' flex justify-center items-center my-10  w-2/3'>
-            <div className='flex flex-col justify-center items-center w-2/3 bg-blue-600'>
-              <h1 className='text-center'>Me contacter</h1>
+        <div className=" flex justify-center items-center h-screen bg-hero-pattern" >
+          <form ref={form} onSubmit={sendEmail} className='  rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100
+ flex justify-center items-center my-10 w-11/12 max-w-xl'>
+            <div className='flex flex-col justify-center items-center px-14 w-full'>
+              <h1 className='text-center text-white text-5xl mt-5'>Me contacter</h1>
               <label>Nom</label>
               <input type="text" name="name" />
               <label>Email</label>
@@ -28,8 +35,8 @@ function Contact() {
               <label>Objet</label>
               <input type="text" name="objet" />
               <label>Message</label>
-              <textarea name="message" className='p-1 h-52 w-1/2 text-base border border-[#cccccc] border-solid bg-[#ffffff] rounded-none shadow-1 text-[#000000]' />
-              <button type="submit">Envoyer</button>
+              <textarea name="message" className='w-full h-28 text-base ' />
+              <button type="submit" className='my-7 w-28 h-8 rounded-lg shadow-2xl bg-blue-300'>Envoyer</button>
             </div>
           </form>
         </div>    );
