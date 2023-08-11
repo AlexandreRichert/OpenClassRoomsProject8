@@ -36,7 +36,7 @@ function Contact() {
               <input type="text" name="objet" />
               <label>Message</label>
               <textarea name="message" className='w-full h-28 text-base ' />
-              <button type="submit" className='my-7 w-28 h-8 rounded-lg shadow-2xl bg-blue-300'>Envoyer</button>
+              <button type="submit" className='my-7 w-28 h-8 rounded-lg shadow-2xl bg-blue-300 hover:bg-[#994636]'>Envoyer</button>
             </div>
           </form>
         </div>    );
