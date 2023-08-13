@@ -10,7 +10,7 @@ function Navbar() {
                 <AiFillHome className='text-4xl ml-3' alt="Accueil"/>
             </div>
             <ul className='flex px-2 space-x-10'>
-                <li><a href="#">A propos</a></li>
+                <li>A propos</li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>

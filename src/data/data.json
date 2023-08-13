@@ -51,8 +51,8 @@
         ]
     },
     {
-        "statut": "terminé",
-        "id": "4",
+        "statut": "en cours",
+        "id": "5",
         "title": "Mon vieux grimoire",
         "imageUrl": "images/monvieuxgrimoire.png",
         "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD",
@@ -64,8 +64,8 @@
         ]
     },
     {
-        "statut": "terminé",
-        "id": "4",
+        "statut": "en cours",
+        "id": "6",
         "title": "Mon vieux grimoire",
         "imageUrl": "images/monvieuxgrimoire.png",
         "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD",
