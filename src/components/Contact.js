@@ -23,7 +23,7 @@ function Contact() {
   
   
     return (
-        <div className=" flex justify-center items-center h-screen bg-hero-pattern" >
+        <div id='contact' className=" flex justify-center items-center h-screen bg-hero-pattern" >
           <form ref={form} onSubmit={sendEmail} className='  rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100
  flex justify-center items-center my-10 w-11/12 max-w-xl'>
             <div className='flex flex-col justify-center items-center px-14 w-full'>
