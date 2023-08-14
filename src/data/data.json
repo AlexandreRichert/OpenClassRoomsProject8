@@ -53,9 +53,9 @@
     {
         "statut": "en cours",
         "id": "5",
-        "title": "Mon vieux grimoire",
-        "imageUrl": "images/monvieuxgrimoire.png",
-        "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD",
+        "title": "Bobtaniste",
+        "imageUrl": "images/bobtaniste.webp",
+        "description": "Création d'un site vitrine pour un ami botaniste comportant ses réalisations, ses conseils et ses tutos.",
         "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7",
         "technos": [
             "Node.js",
@@ -66,14 +66,16 @@
     {
         "statut": "en cours",
         "id": "6",
-        "title": "Mon vieux grimoire",
-        "imageUrl": "images/monvieuxgrimoire.png",
-        "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD",
+        "title": "Site vitrine d'une tapisserie",
+        "imageUrl": "images/tapisserie.webp",
+        "description": "Refonte d'un site de tapisserie réalisée il y a plus de 8 ans et non entretenu.  ",
         "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7",
         "technos": [
             "Node.js",
             "Express.js",
-            "MongoDB"
+            "MongoDB",
+            "React",
+            "TailwindCss"
         ]
     }
 
