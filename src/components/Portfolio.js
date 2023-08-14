@@ -16,7 +16,7 @@ function Portfolio() {
 
   return (
     <section id='portfolio' className=' bg-blue-200 flex flex-col justify-center items-center py-10'>
-      <h1 className='text-4xl mb-14'>Mes projets</h1>
+      <h1 className='text-4xl mb-14 font-bold'>Mes projets</h1>
       <FilteredButtons filterStatus={filterStatus} setFilterStatus={setFilterStatus} />
       <div className='w-full h-3/4 grid gap-16 place-items-center lg:grid-cols-2'>
         {filteredData.map((data) => (

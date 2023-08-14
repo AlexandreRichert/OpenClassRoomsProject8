@@ -18,10 +18,10 @@ function Main() {
         </button>
       </Link>
       <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
+        <h1 className='text-4xl sm:text-7xl font-bold text-white'>
           RICHERT Alexandre
         </h1>
-        <h2 className='text-4xl sm:text-7xl  text-center font-bold text-[#8892b0]'>
+        <h2 className='text-4xl sm:text-7xl  text-center font-bold text-[#EDB88B]'>
           Développeur web junior
         </h2>
       </div>
