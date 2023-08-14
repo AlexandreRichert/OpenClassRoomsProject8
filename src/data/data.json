@@ -4,7 +4,7 @@
         "id": "1",
         "title": "Booki",
         "imageUrl": "images/Booki.png",
-        "description": "intégration d'une interface responsive conformément à une maquette Figma avec HTML et CSS",
+        "description": "Intégration d'une interface responsive conformément à une maquette Figma avec HTML et CSS",
         "lienGithub": "https://github.com/AlexandreRichert/OpenclassroomsProject2",
         "technos": [
             "HTML",
