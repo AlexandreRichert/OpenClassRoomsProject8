@@ -56,7 +56,7 @@
         "title": "Bobtaniste",
         "imageUrl": "images/bobtaniste.webp",
         "description": "Création d'un site vitrine pour un ami botaniste comportant ses réalisations, ses conseils et ses tutos.",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7",
+        "lienGithub": "",
         "technos": [
             "Node.js",
             "Express.js",
@@ -69,7 +69,7 @@
         "title": "Site vitrine d'une tapisserie",
         "imageUrl": "images/tapisserie.webp",
         "description": "Refonte d'un site de tapisserie réalisée il y a plus de 8 ans et non entretenu.  ",
-        "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7",
+        "lienGithub": "",
         "technos": [
             "Node.js",
             "Express.js",

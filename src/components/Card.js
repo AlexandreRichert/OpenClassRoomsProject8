@@ -37,6 +37,7 @@ function Card(props) {
                   <li className='font-semibold text-xs mx-2 border-solid border border-[#EDB88B] rounded-full p-3' key={index}>{tag}</li>
                 ))}
               </ul>
+              <p className='text-[10px] text-center mt-2'><a href={props.github} target="_blank" rel="noopener noreferrer">{props.github}</a></p>
             </div>
           )}
         </div>
