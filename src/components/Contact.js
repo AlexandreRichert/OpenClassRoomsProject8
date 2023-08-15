@@ -21,9 +21,9 @@ function Contact() {
   
     return (
         <div id='contact' className="relative flex flex-col justify-center items-center h-screen bg-hero-pattern " >
-          <form ref={form} onSubmit={sendEmail} className=' rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100
+          <form ref={form} onSubmit={sendEmail} className='h-3/4 rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100
  flex justify-center items-center w-11/12 max-w-xl'>
-            <div className='flex flex-col justify-center items-center px-14 w-full'>
+            <div className='h-full flex flex-col justify-center items-center px-14 w-full'>
               <h1 className='text-center text-white text-3xl mt-5'>Me contacter</h1>
               <label htmlFor='nom' >Nom</label>
               <input type="text" name="name" id="nom" />
