@@ -15,10 +15,10 @@ function Card(props) {
 
 
   return (
-    <div className='w-11/12 max-w-[500px] h-64 md:h-96 shadow-1 rounded-lg flex flex-col justify-end' style={cardBackground}>
+    <div className='w-11/12 max-w-[500px] h-64  shadow-1 rounded-lg flex flex-col justify-end' style={cardBackground}>
       <div className={ ` flex flex-col items-center justify-between text-white bg-[#083953] rounded-b-lg backdrop-filter backdrop-blur-sm bg-opacity-80`  }>
         <div className="  bg-[#083953] h-12 w-full justify-center flex items-center">
-          <h2 className='text-center flex-grow'>{props.title}</h2>
+          <h2 className='text-center font-semibold flex-grow'>{props.title}</h2>
           <div className="ml-auto ">
             <AiOutlineArrowUp 
             className=' justify-self-end self-end mr-2' 
@@ -34,7 +34,7 @@ function Card(props) {
               <p className='text-center mb-4'>{props.description}</p>
               <ul className='flex justify-center flex-wrap mt-2 gap-2'>
                 {props.tags.map((tag, index) => (
-                  <li className=' text-xs mx-2 border-solid border border-[#EDB88B] rounded-full p-3' key={index}>{tag}</li>
+                  <li className='font-semibold text-xs mx-2 border-solid border border-[#EDB88B] rounded-full p-3' key={index}>{tag}</li>
                 ))}
               </ul>
             </div>

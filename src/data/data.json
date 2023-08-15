@@ -3,7 +3,7 @@
         "statut": "terminé",
         "id": "1",
         "title": "Booki",
-        "imageUrl": "images/Booki.png",
+        "imageUrl": "images/Booki.webp",
         "description": "Intégration d'une interface responsive conformément à une maquette Figma avec HTML et CSS",
         "lienGithub": "https://github.com/AlexandreRichert/OpenclassroomsProject2",
         "technos": [
@@ -16,7 +16,7 @@
         "statut": "terminé",
         "id": "2",
         "title": "Portfolio Sophie Bluel",
-        "imageUrl": "images/Sophie_Bluel.png",
+        "imageUrl": "images/Sophie_Bluel.webp",
         "description": "Intégration d'une page web dynamique en Javascript. Affichage, création, modification, suppression de travaux en faisant appel aux APIs du backend ",
         "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet3",
         "technos": [
@@ -29,7 +29,7 @@
         "statut": "terminé",
         "id": "3",
         "title": "KASA",
-        "imageUrl": "images/KASA.png",
+        "imageUrl": "images/KASA.webp",
         "description": "Création d'une application web de location immobilière avec React en mettant en place des composants réutilisables. ",
         "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProject6",
         "technos": [
@@ -41,7 +41,7 @@
         "statut": "terminé",
         "id": "4",
         "title": "Mon vieux grimoire",
-        "imageUrl": "images/monvieuxgrimoire.png",
+        "imageUrl": "images/monvieuxgrimoire.webp",
         "description": "Développement du backend d'un site de notation de livres. Mise en place des opérations CRUD",
         "lienGithub": "https://github.com/AlexandreRichert/OpenClassRoomsProjet7",
         "technos": [

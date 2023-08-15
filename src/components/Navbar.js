@@ -13,18 +13,22 @@ function Navbar() {
                 </Link>
             </div>
             <ul className='flex px-2 space-x-10 sm:text-3xl lg:text-4xl'>
-                <Link to='about' smooth={true} duration={500}>
-                    <li className=' cursor-pointer whitespace-nowrap hover:text-[#EDB88B] ease-in-out duration-300'>A propos</li>
-                </Link>
-                <Link to='portfolio' smooth={true} duration={500}>
-                    <li className=' cursor-pointer whitespace-nowrap hover:text-[#EDB88B] ease-in-out duration-300'>Portfolio</li>
-                </Link>
-                <Link to='contact' smooth={true} duration={500}>
-                    <li className='cursor-pointer whitespace-nowrap hover:text-[#EDB88B] ease-in-out duration-300'>Contact</li>
-                </Link>
+                <NavItem to='about' text='A propos' />
+                <NavItem to='portfolio' text='Portfolio' />
+                <NavItem to='contact' text='Contact' />
             </ul>
         </nav>
     )
+}
+
+function NavItem({ to, text }) {
+    return (
+        <li className='whitespace-nowrap'>
+            <Link to={to} smooth={true} duration={500} className='cursor-pointer hover:text-[#EDB88B] ease-in-out duration-300'>
+                {text}
+            </Link>
+        </li>
+    );
 }
 
 export default Navbar;
