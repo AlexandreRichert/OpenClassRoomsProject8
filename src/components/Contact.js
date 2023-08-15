@@ -37,9 +37,9 @@ function Contact() {
             </div>
           </form>
           <footer className='flex flex-col gap-2 absolute inset-x-0 bottom-2  '>
-            <div className='text-xl text-white flex gap-4 justify-center items-center'>
-              <a href="https://www.linkedin.com/in/alexandre-richert-9a452924a/" aria-label="page Linkedin d'Alexandre Richert"><AiFillLinkedin></AiFillLinkedin></a>
-              <a href="https://github.com/AlexandreRichert" aria-label="Github d'Alexandre Richert"><AiFillGithub></AiFillGithub></a>
+            <div className='text-xl text-white flex gap-4 justify-center items-center '>
+              <a href="https://www.linkedin.com/in/alexandre-richert-9a452924a/" aria-label="page Linkedin d'Alexandre Richert"><AiFillLinkedin className='hover:text-[#EDB88B] ease-in-out duration-300'></AiFillLinkedin></a>
+              <a href="https://github.com/AlexandreRichert" aria-label="Github d'Alexandre Richert"><AiFillGithub className='hover:text-[#EDB88B] ease-in-out duration-300'></AiFillGithub></a>
             </div>
             <p className='text-white text-center text-[10px]'>2023| Richert Alexandre</p>
           </footer> 
