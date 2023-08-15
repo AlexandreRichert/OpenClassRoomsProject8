@@ -6,7 +6,7 @@ function FilteredButtons({ filterStatus, setFilterStatus }) {
 <div className='flex mb-10 bg-white rounded-3xl'>
   <button
     className={`${
-      filterStatus === 'Tous' ? 'bg-[#083953] text-white ': ' text-gray-700 hover:bg-[#EDB88B] ease-in-out duration-300 '
+      filterStatus === 'Tous' ? 'bg-[#083953] text-white ': ' text-gray-700  '
     }  py-2 px-4 rounded-l-3xl transition duration-500 ease-in-out`}
     onClick={() => setFilterStatus('Tous')}
   >
@@ -14,7 +14,7 @@ function FilteredButtons({ filterStatus, setFilterStatus }) {
   </button>
   <button
     className={`${
-      filterStatus === 'terminé' ? 'bg-[#083953] text-white ' : ' text-gray-700'
+      filterStatus === 'terminé' ? 'bg-[#083953] text-white ' : ' text-gray-700 '
     } py-2 px-4 transition duration-500 ease-in-out`}
     onClick={() => setFilterStatus('terminé')}
   >
@@ -22,7 +22,7 @@ function FilteredButtons({ filterStatus, setFilterStatus }) {
   </button>
   <button
     className={`${
-      filterStatus === 'en cours' ? 'bg-[#083953] text-white ' : ' text-gray-700'
+      filterStatus === 'en cours' ? 'bg-[#083953] text-white ' : ' text-gray-700 '
     } py-2 px-4 rounded-r-3xl transition duration-500 ease-in-out`}
     onClick={() => setFilterStatus('en cours')}
   >

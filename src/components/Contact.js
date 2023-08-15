@@ -1,16 +1,19 @@
-import React, { useRef} from 'react'
+import React, { useRef, useState} from 'react'
 import emailjs from "@emailjs/browser";
 import {AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 
 
 function Contact() {
     const form = useRef();
+    const [isSent, setIsSent] = useState(false);
     const sendEmail = (e) => {
       e.preventDefault();
   
       emailjs.sendForm("service_xyqxzwk", "template_3fcf3qh", form.current, "33A2HIixF3PotwVlx").then(
         (result) => {
           console.log(result.text);
+          setIsSent(true);
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -21,7 +24,10 @@ function Contact() {
   
     return (
         <div id='contact' className="relative flex flex-col justify-center items-center h-screen bg-hero-pattern " >
-          <form ref={form} onSubmit={sendEmail} className='h-3/4 rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100
+          <form 
+          ref={form} 
+          onSubmit={sendEmail} 
+          className='h-3/4 rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50 border border-gray-100
  flex justify-center items-center w-11/12 max-w-xl'>
             <div className='h-full flex flex-col justify-center items-center px-14 w-full'>
               <h1 className='text-center text-white text-3xl mt-5'>Me contacter</h1>
@@ -34,6 +40,7 @@ function Contact() {
               <label htmlFor='message'>Message</label>
               <textarea name="message" className='w-full h-28 text-base ' id='message' />
               <button type="submit" className='my-7 w-28 h-8 rounded-lg shadow-2xl bg-blue-300 hover:bg-[#EDB88B] ease-in-out duration-300'>Envoyer</button>
+              {isSent && <p className='text-green-500 text-center'>Le mail a bien été envoyé !</p>}
             </div>
           </form>
           <footer className='flex flex-col gap-2 absolute inset-x-0 bottom-2  '>
