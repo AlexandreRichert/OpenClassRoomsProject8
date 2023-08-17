@@ -18,7 +18,7 @@ function Main() {
         </button>
       </Link>
       <div className='flex flex-col justify-center items-center gap-3'>
-        <h1 className='text-4xl sm:text-7xl sm:mt-6 font-bold text-white'>
+        <h1 className='text-4xl sm:text-7xl sm:mt-6 font-bold text-center text-white'>
           RICHERT Alexandre
         </h1>
         <h2 className='text-3xl sm:text-6xl  text-center font-bold text-[#EDB88B]'>
@@ -26,7 +26,7 @@ function Main() {
         </h2>
       </div>
       <div>
-        <img src={photo} alt="Développement front-end" className='w-52 sm:w-96 h-auto rounded-full bg-[#075C74]' />
+        <img src={photo} alt="Développement front-end" className='w-52 sm:w-[300px] h-auto rounded-full bg-[#075C74]' />
       </div>
 
     </div>
