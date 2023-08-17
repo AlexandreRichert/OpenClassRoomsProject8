@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/OpenClassRoomsProject8/static/css/main.231f0424.css",
-    "main.js": "/OpenClassRoomsProject8/static/js/main.a1002509.js",
+    "main.css": "/OpenClassRoomsProject8/static/css/main.0ffc5beb.css",
+    "main.js": "/OpenClassRoomsProject8/static/js/main.808ca878.js",
     "static/media/photo.webp": "/OpenClassRoomsProject8/static/media/photo.602709f15ef43c6e72d8.webp",
     "static/media/dev_frontend.webp": "/OpenClassRoomsProject8/static/media/dev_frontend.18a8720d5b5dde0b59e4.webp",
     "static/media/shape_contact.svg": "/OpenClassRoomsProject8/static/media/shape_contact.9b5412a83a6e4b1f2691.svg",
     "static/media/shape.svg": "/OpenClassRoomsProject8/static/media/shape.23268059f20a9d6681da53e74dc6f304.svg",
     "static/media/about.svg": "/OpenClassRoomsProject8/static/media/about.262b921fa62525563fc6.svg",
     "index.html": "/OpenClassRoomsProject8/index.html",
-    "main.231f0424.css.map": "/OpenClassRoomsProject8/static/css/main.231f0424.css.map",
-    "main.a1002509.js.map": "/OpenClassRoomsProject8/static/js/main.a1002509.js.map"
+    "main.0ffc5beb.css.map": "/OpenClassRoomsProject8/static/css/main.0ffc5beb.css.map",
+    "main.808ca878.js.map": "/OpenClassRoomsProject8/static/js/main.808ca878.js.map"
   },
   "entrypoints": [
-    "static/css/main.231f0424.css",
-    "static/js/main.a1002509.js"
+    "static/css/main.0ffc5beb.css",
+    "static/js/main.808ca878.js"
   ]
 }
