@@ -1,5 +1,8 @@
 import React from 'react'
 import image from '../assets/dev_frontend.webp'
+import Skills from './Skills'
+import cv from '../assets/CVWCS.pdf'
+
 
 function About() {
   return (
@@ -13,6 +16,10 @@ function About() {
         Actuellement, il me paraît important de continuer sur cette voie en effectuant une alternance afin de préparer un diplôme de concepteur développeur d'applications web. Cela me permettrait de mettre l'ensemble des connaissances acquises dans un cadre professionnel. <br/>
         Le métier de développeur web étant en perpétuelle évolution, il reste important de maintenir l'autoformation. Ainsi, en parallèle, des projets sont à venir comme la refonte d'un site vitrine pour un auto-entrepreneur tapissier sur meuble ainsi que la création d'un site vitrine pour un botaniste qui souhaite partager ses conseils et ses réalisations.        
         </p>
+        <Skills/>
+        <button className='my-7 w-56 h-8 rounded-lg shadow-2xl bg-blue-300 hover:bg-[#EDB88B] ease-in-out duration-300'>
+          <a href={cv} download={cv}>Télécharger mon cv</a>
+        </button>
     </div>
     )
 }

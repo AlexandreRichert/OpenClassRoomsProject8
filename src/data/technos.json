@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Vscode",
+        "icon": "SiVisualstudiocode"
+    },
+    {
+        "title": "Figma",
+        "icon": "SiFigma"
+    },
+    {
+        "title": "Git",
+        "icon": "SiGit"
+    },
+    {
+        "title": "Github",
+        "icon": "SiGithub"
+    },
+    {
+        "title": "HTML",
+        "icon": "SiHtml5"
+    },
+    {
+        "title": "CSS",
+        "icon": "SiCss3"
+    },
+    {
+        "title": "TailwindCSS",
+        "icon": "SiTailwindcss"
+    },
+    {
+        "title": "Javascript",
+        "icon": "SiJavascript"
+    },
+    {
+        "title": "React",
+        "icon": "SiReact"
+    },
+    {
+        "title": "Nodejs",
+        "icon": "SiNodedotjs"
+    },
+    {
+        "title": "Expressjs",
+        "icon": "SiExpress"
+    },
+    {
+        "title": "Mongodb",
+        "icon": "SiMongodb"
+    }
+    
+]
